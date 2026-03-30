@@ -1271,3 +1271,7 @@ npm run dev:full
 ⭐ Star this project if you find it helpful!
 
 </div>
+
+## Credits
+This project is based on the [Smart-Hire-AI-Recruiter](https://github.com/nagasriramnani/Smart-Hire-AI-Recruiter) by [nagasriramnani](https://github.com/nagasriramnani).
+All original logic and UI structure belong to the original author.

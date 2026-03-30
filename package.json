@@ -1,0 +1,31 @@
+{
+  "name": "smarthire-local",
+  "version": "1.0.0",
+  "description": "Local-first recruitment platform with AI-powered candidate ranking",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:frontend": "cd frontend && npx next dev -p 5000",
+    "dev:backend": "cd backend && PORT=3001 npm run dev",
+    "dev:ml": "cd ml-engine && python -m uvicorn app.main:app --reload --port 8000",
+    "dev:full": "concurrently \"cd backend && PORT=3001 node server.js\" \"cd frontend && tail -f /dev/null | npx next dev -p 5000\"",
+    "setup": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "db:init": "cd backend && node database/init.js",
+    "db:seed": "cd backend && node database/seeds/seed.js",
+    "ml:train": "cd ml-engine && python training/train_model.py",
+    "ml:setup": "cd ml-engine && pip install -r requirements.txt",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "npm run dev:full"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
+

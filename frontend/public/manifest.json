@@ -1,0 +1,77 @@
+{
+  "name": "mednode.cloud",
+  "short_name": "mednode",
+  "description": "Neural Recruitment Protocol for Healthcare",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0a0a0a",
+  "background_color": "#0a0a0a",
+  "lang": "en-GB",
+  "scope": "/",
+  "categories": ["medical", "business", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-72.svg",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-96.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-128.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-384.svg",
+      "sizes": "384x384",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/screenshot-mobile.svg",
+      "sizes": "390x844",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "mednode.cloud dashboard"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Employer",
+      "url": "/employer/dashboard",
+      "description": "NHS Trust staffing dashboard"
+    },
+    {
+      "name": "Recruiter",
+      "url": "/recruiter/dashboard",
+      "description": "Recruiter network velocity"
+    },
+    {
+      "name": "Clinician",
+      "url": "/clinician/dashboard",
+      "description": "Clinician matches"
+    }
+  ]
+}

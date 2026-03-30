@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0a0a0a"/>
+  <rect width="512" height="512" rx="112" fill="url(#g)" opacity="0.15"/>
+  <defs>
+    <radialGradient id="g" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#ffffff" stroke-width="6" stroke-opacity="0.15"/>
+  <!-- Cardinal spokes full -->
+  <line x1="256" y1="168" x2="256" y2="96" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-opacity="0.9"/>
+  <line x1="256" y1="344" x2="256" y2="416" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-opacity="0.9"/>
+  <line x1="168" y1="256" x2="96" y2="256" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-opacity="0.9"/>
+  <line x1="344" y1="256" x2="416" y2="256" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-opacity="0.9"/>
+  <!-- Diagonal spokes -->
+  <line x1="194" y1="194" x2="148" y2="148" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-opacity="0.5"/>
+  <line x1="318" y1="318" x2="364" y2="364" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-opacity="0.5"/>
+  <line x1="318" y1="194" x2="364" y2="148" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-opacity="0.5"/>
+  <line x1="194" y1="318" x2="148" y2="364" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-opacity="0.5"/>
+  <!-- Spoke dots -->
+  <circle cx="256" cy="96" r="7" fill="#ffffff" opacity="0.9"/>
+  <circle cx="256" cy="416" r="7" fill="#ffffff" opacity="0.9"/>
+  <circle cx="96" cy="256" r="7" fill="#ffffff" opacity="0.9"/>
+  <circle cx="416" cy="256" r="7" fill="#ffffff" opacity="0.9"/>
+  <!-- Inner ring -->
+  <circle cx="256" cy="256" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.9"/>
+  <!-- Center core -->
+  <circle cx="256" cy="256" r="18" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="10" fill="#0a0a0a"/>
+</svg>
